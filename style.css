@@ -16,7 +16,9 @@ body *{
     --black:#111111;
     --red:#FF5B50;
     --white-letter:#e4e2e2;
+    --white-border:#e4e2e298;
     --white-lighter:#99969679;
+
     --gray:#5A5757;
 }
 
@@ -259,7 +261,7 @@ header{
     height: 197px;
     object-fit: cover;
 
-    border: 1px solid var(--white-letter);
+    border: 1px solid var(--white-border);
     cursor: pointer;
 }
 
