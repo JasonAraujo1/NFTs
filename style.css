@@ -12,3 +12,151 @@ body *{
     font-family: 'Montserrat', sans-serif;
 }
 
+:root{
+    --black:#111111;
+    --red:#FF5B50;
+    --white-letter:#FFF;
+}
+
+
+header, .container1, .container2{
+    background-image: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*HEADER*/
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 50px  80px 100px;
+    align-items: center;
+}
+
+
+.logo{
+    color:var(--red) ;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo span{
+    color: var(--white-letter);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.links-header{
+    display: flex;
+}
+
+.links-header a{
+  
+    text-decoration: none;
+    color: var(--white-letter);
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+
+    display: flex;
+    margin:0 60px;
+}
+
+.btn-carteira button{
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    background-color: var(--white-letter);
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-carteira a{
+   text-decoration: none;
+   display: flex;
+   
+}
+.btn-carteira a button{
+   display: flex;
+   gap: 15px;
+    
+ }
+
+.btn-carteira a button span{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+.pig-img{
+    width: 22px;
+}
+
+
+
+
+
+/*CONTAINER1*/
+
+.container1{
+    display: flex;
+    color: var(--white-letter);
+    justify-content: space-between;
+    padding: 0 80px;
+    gap:70px ;
+}
+
+.ladoA p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.imgs-perfil img{
+     width: 95px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HOVER*/
+
+
+
+
+
+
+
+
+
+/*MOBILE*/
+@media screen and (max-width:600px) {
+    
+}
