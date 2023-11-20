@@ -512,6 +512,7 @@ height: 300px;
     padding: 22px 32px ;
 
     background-color: var(--black-lighter);
+    cursor: pointer;
 }
 
 
@@ -552,6 +553,27 @@ height: 300px;
     width: 15px;
     color: var(--red);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*HOVER*/
 
