@@ -14,6 +14,7 @@ body *{
 
 :root{
     --black:#111111;
+    --black-lighter:#252525;
     --red:#FF5B50;
     --white-letter:#e4e2e2;
     --white-border:#e4e2e298;
@@ -21,6 +22,8 @@ body *{
 
     --gray:#5A5757;
 }
+
+
 
 
 header, .container1, .container2{
@@ -42,6 +45,7 @@ header{
     justify-content: space-between;
     padding: 50px  80px 100px;
     align-items: center;
+    
 }
 
 
@@ -397,9 +401,10 @@ height: 300px;
     
     display: flex;
     justify-content: space-between;
-  max-width: 80vw;
-  margin: auto;
-    
+    max-width: 70vw;
+    margin: auto;
+    padding-bottom: 100px;
+  
 }
 
 .ladoF div h3{
@@ -408,7 +413,8 @@ height: 300px;
     font-style: normal;
     font-weight: 500;
     color: var(--white-letter);
-    padding: 40px 0 40px 0;
+    padding-top: 40px;
+    padding-bottom: 10px;
 
     display: flex;
     justify-content: space-between;
@@ -422,8 +428,7 @@ height: 300px;
     color: var(--gray);
     display: flex;
     justify-content: space-between;
-    
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
 .ladoF div p span{
@@ -437,29 +442,116 @@ height: 300px;
 
 
 .ladoF-line-gray{
-    border: 1px solid var(--white-lighter);
+    border-left: 1px solid var(--white-lighter);
     margin: 0 100px;
 }
 
 .ladoF img{
     width: 100%;
     min-width: 350px;
-    height: 350px;
+    height: 250px;
     object-fit: cover;
     flex: 1;
+   cursor: pointer;
 }
 
 
 
 
 
+/*CONTAINER5*/
+.container5{
+    background-color: var(--black);
+    padding: 0 80px;
+}
+
+.container5 div h1{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+
+    color: var(--white-letter);
+    display: flex;
+    justify-content: center ;
+    gap: 10px;
+    padding-bottom: 100px;
+
+
+}
+.container5 div h1 span{
+    color: var(--red);
+}
+
+
+/*container5 ladoG*/
+
+.ladoG{
+    display: flex;
+    color: var(--white-letter);
+    flex-wrap: wrap;
+    gap: 100px;
+
+    margin: auto;
+    max-width: 80vw;
+    justify-content: center;
+   
+}
+
+.ladoG img{
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.ladoG-box{
+    display: flex;
+   
+    width: 350px;
+    align-items: center;
+    padding: 22px 32px ;
+
+    background-color: var(--black-lighter);
+}
+
+
+.ladoG-box div{
+    padding: 0 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--white-letter);
+}
 
 
 
+.ladoG-box div span{
+   color: var(--red);
+   font-size: 16px;
+}
 
+.link-container5 a{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
 
+    color: var(--white-letter);
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px ;
+    
+    gap: 10px;
+}
+.link-container5{
+    padding-bottom: 100px;
+}
 
-
+.link-container5 .bi-arrow-up-right{
+    width: 15px;
+    color: var(--red);
+}
 
 /*HOVER*/
 
