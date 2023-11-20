@@ -276,7 +276,7 @@ header{
     display: flex;
 
     padding: 0 80px;
-    padding-top: 80px;
+   
     border-bottom: 1px solid var(--white-lighter);
 }
 
@@ -288,6 +288,7 @@ header{
     flex-direction: column;
     gap:30px ;
     padding-right: 65px;
+    padding-top: 70px;
 }
 .ladoD h1{
     font-size: 50px;
@@ -346,6 +347,13 @@ header{
     border-left: 1px solid var(--white-lighter);
     gap: 126px;
     padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+div.ladoE-img {
+   
+height: 300px;
+   
 }
 
 .ladoE-img img{
@@ -366,7 +374,89 @@ header{
 .container4{
     background-color: var(--black);
     color: var(--white-letter);
+    padding: 0 80px;
+    padding-top: 70px;
 }
+
+.container4 div h1{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+
+.container4 div h1 span{
+    color: var(--red);
+}
+
+
+/*container4 ladoF*/
+
+.ladoF{
+    
+    display: flex;
+    justify-content: space-between;
+  max-width: 80vw;
+  margin: auto;
+    
+}
+
+.ladoF div h3{
+    
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--white-letter);
+    padding: 40px 0 40px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.ladoF div p{
+    
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--gray);
+    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 25px;
+}
+
+.ladoF div p span{
+    font-weight: 400;
+    color: var(--red);
+    font-size: 12px;
+
+}
+
+
+
+
+.ladoF-line-gray{
+    border: 1px solid var(--white-lighter);
+    margin: 0 100px;
+}
+
+.ladoF img{
+    width: 100%;
+    min-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
 
 
 
