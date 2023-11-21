@@ -43,7 +43,7 @@ header{
    
     display: flex;
     justify-content: space-between;
-    padding: 50px  80px 100px;
+    padding: 50px   15vw 100px;
     align-items: center;
     
 }
@@ -126,7 +126,7 @@ header{
     color: var(--white-letter);
     justify-content: space-between;
    
-    padding: 0 80px;
+    padding: 0 15vw;
     gap:70px ;
 }
 
@@ -254,7 +254,7 @@ header{
     flex-wrap: wrap;
     
     gap: 16px;
-    padding: 0 80px;
+    padding: 0 15vw;
     padding-top:100px ;
 
     
@@ -268,7 +268,7 @@ header{
 
 .container2 div img{
     flex: 1;
-    min-width: 400px;
+    min-width: 300px;
     height: 197px;
     object-fit: cover;
 
@@ -288,7 +288,7 @@ header{
 
     display: flex;
 
-    padding: 0 80px;
+    padding: 0 15vw;
    
     border-bottom: 1px solid var(--white-lighter);
 }
@@ -387,7 +387,7 @@ height: 300px;
 .container4{
     background-color: var(--black);
     color: var(--white-letter);
-    padding: 0 80px;
+    padding: 0 15vw;
     padding-top: 70px;
 }
 
@@ -471,7 +471,7 @@ height: 300px;
 /*CONTAINER5*/
 .container5{
     background-color: var(--black);
-    padding: 0 80px;
+    padding: 0 15vw;
 }
 
 .container5 div h1{
@@ -585,7 +585,7 @@ footer div h2 span{
 
 .footer-title{
     display: flex;
-    padding: 100px 80px 80px;
+    padding: 100px 15vw 80px;
     justify-content: space-between;
     align-items: center;
     border-bottom:1px solid var(--gray)  ;
@@ -606,7 +606,7 @@ footer div h2 span{
 }
 
 .footer-box1{
-    padding: 67px 110px 80px 80px;
+    padding: 67px 110px 80px 15vw;
     border-right: 1px solid var(--gray);
    
 }
@@ -673,7 +673,14 @@ footer div h2 span{
     font-style: normal;
     font-weight: 400;
 
-    color: var(--gray);
+    
+
+    text-decoration: none;
+}
+
+.footer-box2 ul a{  
+   text-decoration: none;
+   color: var(--gray);
 }
 
 .footer-box2 ul li span{  
@@ -704,7 +711,15 @@ footer div h2 span{
     font-style: normal;
     font-weight: 400;
 
-    padding: 80px 80px 60px;
+    padding: 80px 15vw 60px;
+
+   
+}
+
+.footer-links-box1 a{
+text-decoration:none ;
+color: var(--gray);
+   
 }
 
 .footer-links-box2{
