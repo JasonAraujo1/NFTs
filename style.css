@@ -268,7 +268,7 @@ header{
 
 .container2 div img{
     flex: 1;
-    min-width: 500px;
+    min-width: 400px;
     height: 197px;
     object-fit: cover;
 
