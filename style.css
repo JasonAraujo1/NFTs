@@ -249,24 +249,33 @@ header{
 
 /*CONTAINER2*/
 
-.container2{
+.container2 div{
     display: flex;
     flex-wrap: wrap;
     
     gap: 16px;
     padding: 0 80px;
     padding-top:100px ;
+
+    
+   
+    margin: auto;
+    justify-content:center ;
+   
+   
 }
 
 
-.container2 img{
+.container2 div img{
     flex: 1;
-    width: 307px;
+    min-width: 500px;
     height: 197px;
     object-fit: cover;
 
     border: 1px solid var(--white-border);
     cursor: pointer;
+
+   
 }
 
 
@@ -492,7 +501,7 @@ height: 300px;
     gap: 100px;
 
     margin: auto;
-    max-width: 80vw;
+    max-width: 70vw;
     justify-content: center;
    
 }
