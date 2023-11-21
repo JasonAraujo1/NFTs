@@ -555,6 +555,165 @@ height: 300px;
 }
 
 
+/*FOOTER*/
+
+footer{
+    background-color: var(--black-lighter);
+}
+
+footer div h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--red);
+  
+}
+
+footer div h2 span{
+    
+    color: var(--white-letter);
+}
+
+.footer-title{
+    display: flex;
+    padding: 100px 80px 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid var(--gray)  ;
+}
+
+.bi-arrow-up-square-fill{
+    font-size: 50px;
+    color: var(--red);
+    cursor: pointer;
+}
+
+
+
+
+
+.footer-boxes{
+    display: flex;
+}
+
+.footer-box1{
+    padding: 67px 110px 80px 80px;
+    border-right: 1px solid var(--gray);
+   
+}
+
+.footer-box1 h3{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--white-letter);
+    justify-content: center;
+  
+}
+
+.footer-box1 h3 span{
+  
+    color: var(--red);
+}
+
+.footer-box1 form input{
+    background-color: var(--black);
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 260px;
+    padding: 0 15px;
+
+    caret-color: var(--red);/*barra de texto piscando*/
+    color: var(--white-letter);
+}
+
+.footer-box1 form button{
+    background-color: var(--white-letter);
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 80px;
+  
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+.footer-boxes{
+    border-bottom: 1px solid var(--gray);
+}
+
+
+.footer-box2{
+    display: flex;
+    gap:120px ;
+    list-style: none;
+    text-decoration: none;
+
+    margin: auto;
+    
+}
+.footer-box2 ul{  
+    list-style: none;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+    color: var(--gray);
+}
+
+.footer-box2 ul li span{  
+   
+    color: var(--white-letter);
+    font-weight: 700;
+}
+
+.footer-box2 ul  {  
+   display: flex;
+   flex-direction: column;
+    gap: 7px;
+}
+
+
+
+
+
+/*footer links*/
+
+.footer-links{
+    display: flex;
+    color: var(--white-lighter);
+
+    justify-content: space-between;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+    padding: 80px 80px 60px;
+}
+
+.footer-links-box2{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-links-box2 .bi{
+    font-size: 22px;
+    cursor: pointer;
+    color: var(--gray);
+}
+
+
+
+
+
+
 
 
 
