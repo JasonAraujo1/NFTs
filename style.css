@@ -905,7 +905,9 @@ color: var(--gray);
            
     }
 
-
+    div.ladoE-img {
+        height: 200px;
+    }
 
     .container4{
         display: flex;
@@ -1029,7 +1031,7 @@ color: var(--gray);
     .footer-box2{
         display: flex;
         gap:50px ;
-        
+        padding-bottom: 20px;
     }
     .footer-box2 ul{  
         font-size: 15px;
@@ -1060,8 +1062,22 @@ color: var(--gray);
     }
 
 
-
-
-
+    .footer-links{
+    
+        font-size: 15px;
+     
+       
+    }
+    
+    .footer-links-box2{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .footer-links-box2 .bi{
+        font-size: 18px;
+      
+    }
+    
 
 }
