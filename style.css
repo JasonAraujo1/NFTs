@@ -781,12 +781,7 @@ color: var(--gray);
 
    
 
-    footer{
-        display: none;
-        
-    }
-
-
+ 
 
     header{
         gap: 20px;
@@ -1007,10 +1002,62 @@ color: var(--gray);
 
 
 
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .footer-box1 h3{
+        font-size: 30px;
+       text-align: center;
+        
+      
+    }
+    .footer-box1{
+        padding: 50px;
+        border-right: 1px solid var(--gray);
+       
+    }
+    
+    
+    .footer-boxes{
+        display: flex;
+        flex-direction: column;
+    }
 
+    
+    .footer-box2{
+        display: flex;
+        gap:50px ;
+        
+    }
+    .footer-box2 ul{  
+        font-size: 15px;
+       
+    }
 
-
+    form{
+        display: flex;
+        width: 100%;
+    }
+    .footer-box1 form input{
+    
+        height: 50px;
+        width: 100%;
+       
+        padding: 0 15px;
+        display: flex;
+        
+    
+    }
+    
+    .footer-box1 form button{
+       
+        height: 50px;
+        width: 80px;
+      
+       
+    }
 
 
 
