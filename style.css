@@ -501,7 +501,7 @@ height: 300px;
     gap: 100px;
 
     margin: auto;
-    max-width: 70vw;
+    max-width: 66vw;
     justify-content: center;
    
 }
@@ -771,4 +771,160 @@ color: var(--gray);
 /*MOBILE*/
 @media screen and (max-width:600px) {
     
+
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+    }
+
+   
+    
+
+   
+    .container5{
+        display: none;
+        flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer{
+        display: none;
+        
+    }
+
+
+
+    header{
+        gap: 20px;
+    }
+    .links-header a{
+       
+        margin:0 40px;
+    }
+
+    .btn-carteira button{
+       
+        padding: 8px 10px;
+     
+    }
+
+    
+    .btn-carteira a button span{
+        font-size: 12px;
+      }
+    
+    .pig-img{
+        width: 16px;
+    }
+
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ladoA p{
+        font-size: 14px;
+       
+    }
+    
+
+    .ladoB h1{
+        font-size: 40px;
+     
+    }
+
+    .ladoC img{
+        width:60px ;
+       
+    }
+    
+    .container2{
+        display: flex;
+    }
+
+
+    .container2 div{
+       display: flex;
+       justify-content: center;
+       margin: auto;
+
+       max-width: 100vw;
+       margin: 0;
+      
+       
+    }
+    
+
+    .container2 div img{
+        flex: 1;
+        min-width: 100px;
+        height: 197px;
+        object-fit: cover;
+    
+        border: 1px solid var(--white-border);
+        cursor: pointer;
+    
+       
+    }
+
+    .ladoD h1{
+        font-size: 20px;
+      
+    
+    }
+    .ladoD h1 p{
+      
+        font-size: 10px;
+      
+    }
+    
+
+    .container3{
+        display: flex;
+
+    }
+
+    .ladoE-boxes{
+        display: flex;
+        flex-direction: column;
+      
+        gap: 26px;
+         
+    }
+        
+    .ladoE-boxes div p{
+        font-size: 10px;
+    }
+
+    .ladoE-boxes div a{
+        font-size: 10px;
+    }
+
+    .ladoE-box1, .ladoE-box2{
+       
+        gap: 10px;
+        padding-left: 18px;
+       
+    }
+
+
+    .ladoE-img img{
+  
+       height: 200px;
+      
+           
+    }
+
+
+
+    .container4{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
 }
