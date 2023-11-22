@@ -788,7 +788,7 @@ color: var(--gray);
         background-size:cover;
         background-repeat: no-repeat;
         background-attachment:fixed;/*a mesma imagem para as 3 tags(header, container1 e container2)*/
-      background-image: 100vh;
+        background-size: auto 900px; 
     }
     
  
