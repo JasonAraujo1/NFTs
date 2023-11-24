@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -416,7 +417,9 @@ height: 300px;
     padding-bottom: 100px;
   
 }
-
+.ladoF div{
+    margin: 0 0.5vw;
+}
 .ladoF div h3{
     
     font-size: 30px;
@@ -428,6 +431,7 @@ height: 300px;
 
     display: flex;
     justify-content: space-between;
+   
 }
 
 .ladoF div p{
@@ -457,9 +461,9 @@ height: 300px;
 }
 
 .ladoF img{
-    width: 100%;
-    min-width: 350px;
-    height: 250px;
+    display: flex;
+    
+    max-height: 350px;
     object-fit: cover;
     flex: 1;
    cursor: pointer;
@@ -592,10 +596,13 @@ footer div h2 span{
     border-bottom:1px solid var(--gray)  ;
 }
 
-.bi-arrow-up-square-fill{
+
+
+.bi-arrow-up-square-fill{/*page up*/
     font-size: 50px;
     color: var(--red);
     cursor: pointer;
+  
 }
 
 
