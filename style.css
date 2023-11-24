@@ -537,13 +537,27 @@ height: 300px;
     font-weight: 500;
     color: var(--white-letter);
 }
-
-
-
 .ladoG-box div span{
-   color: var(--red);
-   font-size: 16px;
+    color: var(--red);
+    font-size: 16px;
+ }
+ 
+
+
+.ladoG-box.ativo{
+   
+    background-color: var(--red);
+    transition: all 0.5s ease;
 }
+
+.ativo.ladoG-box div span{
+    color: var(--white-letter);
+    transition: all 0.5s ease;
+ }
+ 
+
+
+
 
 .link-container5 a{
     font-size: 20px;
@@ -815,7 +829,7 @@ a:not(hover){
 
    
     header, .container1, .container2{
-        background-image: url(https://images.unsplash.com/photo-1550684656-96eda9e5c632?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-image: url(https://images.unsplash.com/photo-1547499417-61a435d27cb3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-position: center;
        
         background-repeat: no-repeat;
@@ -1042,7 +1056,7 @@ a:not(hover){
         background-color: var(--black-lighter);
         cursor: pointer;
     }
-
+  
 
 
 
