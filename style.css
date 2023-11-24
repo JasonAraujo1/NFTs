@@ -80,6 +80,13 @@ header{
 
     display: flex;
     margin:0 60px;
+    
+    display: flex;
+    gap: 5px;
+}
+
+.links-header a.ativo{
+ color: var(--red);
 }
 
 .btn-carteira button{
@@ -834,7 +841,7 @@ a:not(hover){
        
         background-repeat: no-repeat;
         background-attachment:fixed;/*a mesma imagem para as 3 tags(header, container1 e container2)*/
-        background-size:414px 921px; 
+        background-size:cover; 
 
     }
     
@@ -843,11 +850,14 @@ a:not(hover){
     header{
         gap: 50px;
     }
+
+ 
     .links-header a{
        
-        margin:0 40px;
+        margin:0 35px;
+      
     }
-
+  
     .btn-carteira button{
        
         padding: 8px 10px;
