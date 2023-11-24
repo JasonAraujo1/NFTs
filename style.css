@@ -829,12 +829,13 @@ a:not(hover){
 
    
     header, .container1, .container2{
-        background-image: url(https://images.unsplash.com/photo-1547499417-61a435d27cb3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-image: url(https://images.unsplash.com/photo-1547499417-0b7889e0f147?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-position: center;
        
         background-repeat: no-repeat;
         background-attachment:fixed;/*a mesma imagem para as 3 tags(header, container1 e container2)*/
-        background-size:cover; 
+        background-size:414px 921px; 
+
     }
     
  
@@ -956,7 +957,7 @@ a:not(hover){
 
     .ladoE-img img{
   
-       height: 150px;
+      height: 150px;
       position: absolute;
     
       left: 0;     
