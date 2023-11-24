@@ -929,7 +929,7 @@ a:not(hover){
         display: flex;
 
     }
-
+   
     .ladoE-boxes{
         display: flex;
         flex-direction: column;
@@ -956,13 +956,14 @@ a:not(hover){
 
     .ladoE-img img{
   
-       height: 200px;
-      
-           
+       height: 150px;
+      position: absolute;
+    
+      left: 0;     
     }
 
     div.ladoE-img {
-        height: 200px;
+        height: 150px;
     }
 
     .container4{
