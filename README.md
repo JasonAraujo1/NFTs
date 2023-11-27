@@ -1,4 +1,4 @@
-<h1 align="center">#13 NFT's</h1>
+<h1 align="center">#12 NFT's</h1>
 <h2 align="center">Blog NFT's</h2>
 
 <p align="center">
