@@ -1069,7 +1069,11 @@ a:not(hover){
         cursor: pointer;
     }
   
-
+       
+    .ladoG-box div {
+     padding: 0 10px;
+    }
+  
 
 
     footer{
