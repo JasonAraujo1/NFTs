@@ -58,7 +58,7 @@ O Blog NFTs é um site dedicado ao universo dos tokens não fungíveis (NFTs), p
 
 ## 🎨 Layout
 - O design do site é responsivo, adaptando-se a diferentes dispositivos para proporcionar uma experiência consistente. A paleta de cores, fontes e imagens foi escolhida para refletir a atmosfera do mercado de NFTs, criando uma identidade visual única.
-- Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/coffee/>). 
+- Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/NFTs/>). 
 
 ## 🔍 Instruções do Site
 - Navegação: Utilize o menu de navegação para explorar diferentes seções do site.
